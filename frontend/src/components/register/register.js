@@ -12,7 +12,7 @@ export const Register=()=>
     const Reg=async()=>
     {
         try{
-            const result=await axios.post("http://loaclhost:8000/registers/"+name+"/"+gmail+"/"+password+"/"+conpassword)
+            const result=await axios.post("https://server-bjj8.onrender.com/registers/"+name+"/"+gmail+"/"+password+"/"+conpassword)
             {
                 if(result.data)
                 {

@@ -19,7 +19,7 @@ export const Registerr=() =>
         if(password===conpassword){
             try
         {
-            const res=await axios.post("http://localhost:8000/registerr/"+name+"/"+gmail+"/"+password+"/"+conpassword)
+            const res=await axios.post("https://server-bjj8.onrender.com/registerr/"+name+"/"+gmail+"/"+password+"/"+conpassword)
             {
                 if(res.data)
                 {
@@ -83,6 +83,6 @@ export const Registerr=() =>
         </table>
         <footer className="foot"></footer>
         </>
-       
-    );
+
+);
 }

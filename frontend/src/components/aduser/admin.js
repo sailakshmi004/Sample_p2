@@ -12,7 +12,7 @@ export const Ad=() =>
     {
         try
         {
-            const res=await axios.get("http://localhost:8000/login/"+name+"/"+password)
+            const res=await axios.get("https://server-bjj8.onrender.com/login/"+name+"/"+password)
             
                 if(res.data)
                 {

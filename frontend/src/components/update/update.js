@@ -83,7 +83,7 @@ const Up=async()=>
 {
   try
   {
-    const isGoal = await axios.post("http://localhost:8000/update/"+name+"/"+newpsw);
+    const isGoal = await axios.post("https://server-bjj8.onrender.com/update/"+name+"/"+newpsw);
   if(isGoal.data)
   {
     alert("saved");

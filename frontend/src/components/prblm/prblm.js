@@ -5,7 +5,7 @@ export  const Problem = () => {
     const[pro,setpro]=useState([]);
     useEffect(()=>
       {
-        axios.get("http://localhost:8000/prblm")
+        axios.get("https://server-bjj8.onrender.com/prblm")
         .then( (result)=>
           {
             setpro(result.data);

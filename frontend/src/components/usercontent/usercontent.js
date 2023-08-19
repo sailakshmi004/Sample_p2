@@ -6,7 +6,7 @@ export const User=()=>
     const Us=async()=>
     {
       try{
-        const res=await axios.post("http://localhost:8000/usercontent/"+prblm)
+        const res=await axios.post("https://server-bjj8.onrender.com/usercontent/"+prblm)
         if(res.data)
         {
             alert("saved successfully")
