@@ -1,0 +1,73 @@
+.head
+{
+  width:100%;
+  background-color:rgb(141, 217, 234);
+  height: 7vh;
+  /* line-height: 50vh; */
+}
+.head1
+{
+  /* margin-top:auto; */
+  height: 0vh;
+  margin: auto;
+  background-color:rgb(242, 243, 238);
+}
+.head2
+{
+  height: 50%;
+  position: relative;
+}
+.hb
+{
+  margin:0%;
+}
+.ab
+{
+  margin:-0.9vh
+}
+.body
+{
+  background-image: url("back.jpg");
+  height: 86vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+  
+}
+.visit
+{
+  border-radius: 50%;
+  border-width: 30px;
+  background-color: antiquewhite;
+  margin: 21% 0% 0vh 47%;
+}
+
+.foot
+{
+  background-color: rgb(247, 157, 247);
+  height: 7vh;
+}
+.data
+{
+  width: 20%;
+  position: absolute;
+  margin:-47vh 40% 50vh 39.5%;
+  background-color: rgba(203, 236, 251, 0.984);
+  border-radius: 8%;
+  height: 15vh;
+
+
+  
+}
+.input
+{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(170, 238, 238);
+  width: 50%;
+  border-radius: 10%;
+
+}
+.user
+{
+  margin: 17vh 40%;
+}
