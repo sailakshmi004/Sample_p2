@@ -1,7 +1,9 @@
 import axios from "axios";
+import {useNavigate} from 'react-router-dom';
 import React, { useState } from "react";
 export const User=()=>
 {
+    const nav=useNavigate();
     const[prblm,sprblm]=useState([]);
     const Us=async()=>
     {
@@ -10,6 +12,7 @@ export const User=()=>
         if(res.data)
         {
             alert("saved successfully")
+            nav('/prblm')
         }
         else{
             alert("check")
@@ -20,6 +23,7 @@ export const User=()=>
         console.log(e)
     }
 }
+
     return(
         <>
         <nav className="head"></nav>

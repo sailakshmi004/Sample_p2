@@ -6,9 +6,10 @@ export  const Problem = () => {
     useEffect(()=>
       {
         axios.get("https://server-bjj8.onrender.com/prblm")
-        .then( (result)=>
+        .then((result)=>
           {
             setpro(result.data);
+            console.log(result.data)
           })
       })
       
@@ -19,14 +20,10 @@ export  const Problem = () => {
                  {
                 pro.map((data)=>
                 (
-                    <>
-                      
-                        <table></table>
-                    {data.prblm}<br/>
+                  <tr>
+                    {data.input}
+                  </tr>
                     
-                    <br/>
-                    
-                    </>
                 ))
                  }
                 </div>
@@ -34,6 +31,6 @@ export  const Problem = () => {
 
 
                
-            </>
-        )
+           </>
+      )
 }
