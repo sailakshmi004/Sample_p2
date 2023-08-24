@@ -37,11 +37,11 @@ app.post('/update/:name/:password',async (req,res)=>{
 //     const details=await db.collection('saii').findOneAndUpdate({Name:req.params.name,Password:req.params.password})
 //     res.json(details);
 // })
-app.post('/usercontent/:input/',async(req,res) => {
-    const details = await db.collection('input').insertOne({input:req.params.input});
-    res.json(details);
+// app.post('/usercontent/:input/',async(req,res) => {
+//     const details = await db.collection('input').insertOne({input:req.params.input});
+//     res.json(details);
 
-})
+// })
 // app.get('/output/:input',async(req,res)=>{
 //     const details=await db.collection('input').findOne({input:req.params.enter})
 //     res.json(details);
