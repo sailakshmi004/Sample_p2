@@ -84,9 +84,18 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: blue;
 }
-.sorry
-{
-  font-family: italic;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.sorry {
+  font-family: 'Open Sans', sans-serif;
+  font-family:italic;
   font-weight: 100;
   color: blueviolet;
+  /* background-image: url(""); */
+}
+
+.sorry
+{
+  
+
 }
