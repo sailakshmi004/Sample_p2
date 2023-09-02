@@ -5,12 +5,15 @@ export const Sorry=()=>
 
     return(
         <>
-        <div className="sorry">
-        <h1> Oops..!! Oh sorry 😕</h1>
-            <div className="admin">
-    
-    </div>
-    </div>
+        
+                <div className="admin">
+                <div className="sorry">
+                    <h1>Oops..! Ohh Sorry 😕 There is no registration for users.</h1>
+                    <h2>Only for Admins..!😁</h2>
+                    </div>
+                
+        </div>
+   
         </>
     )
 }
