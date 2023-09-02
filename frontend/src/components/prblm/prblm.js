@@ -1,6 +1,5 @@
 import {React,  useEffect,  useState } from "react";
 import axios from 'axios';
-
 export  const Problem = () => {
     const[pro,setpro]=useState([]);
     useEffect(()=>
@@ -21,7 +20,7 @@ export  const Problem = () => {
                 pro.map((data)=>
                 (
                   <tr>
-                    {data.input}
+                    {data.prblm}
                   </tr>
                     
                 ))

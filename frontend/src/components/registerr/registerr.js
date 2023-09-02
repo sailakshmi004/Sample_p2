@@ -5,11 +5,8 @@ import { Heading } from "../head/head";
 export const Registerr=() =>
 {
     const nav=useNavigate();
-    // const [name,sname]=useState([]);
-    // const [pnum,setpnum]=useState([]);
-    // const [email,setemail]=useState([]);
-    // const [psw,setpsw]=useState([]);
-    // const [cpsw,setcpsw]=useState([]);
+    
+    
     const [name,sname]=useState("");
     const [gmail,sgmail]=useState("");
     const [password,spassword]=useState("");
@@ -19,7 +16,7 @@ export const Registerr=() =>
         if(password===conpassword){
             try
         {
-            const res=await axios.post("https://server-bjj8.onrender.com/registerr/"+name+"/"+gmail+"/"+password+"/"+conpassword)
+            const res=await axios.post("https://server-bjj8.onrender.com/register/"+name+"/"+gmail+"/"+password+"/"+conpassword)
             {
                 if(res.data)
                 {
@@ -86,3 +83,4 @@ export const Registerr=() =>
 
 );
 }
+

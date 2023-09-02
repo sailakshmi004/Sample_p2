@@ -22,7 +22,7 @@ app.get('/login/:name/:password',async(req,res)=>{
     res.json(details);
 })
 
-app.post('/registerr/:name/:gmail/:password/:conpassword/',async(req,res)=>
+app.post('/register/:name/:gmail/:password/:conpassword/',async(req,res)=>
 {
     const details=await db.collection('saii').insertOne({Name:req.params.name,Gmail:req.params.gmail,Password:req.params.password})
     res.json(details);

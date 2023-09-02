@@ -29,52 +29,52 @@
 //             console.log(e)
 //         }
 //     }
-    // const Reg=()=>
-    // {
-    //     nav('/registerpp')
-    // }
-    // const For=()=>
-    // {
-    //     nav('/forgotp')
+//     const Reg=()=>
+//     {
+//         nav('/registerpp')
+//     }
+//     const For=()=>
+//     {
+//         nav('/forgotp')
 //     }
 //     return(
 //         <>
-        // <Heading/>
-        // <nav className="head">
-        // </nav>
-        // <div className="body"></div>
-        // <table className="data">
-        //     <tr>
-        //             <td className="input">
-        //             <label for="gmail"><b>Gmail-</b></label>
-        //         </td>
-        //         <td className="input">
-        //         <input type="gmail" name='mail' placeholder="Enter Gmail" onChange={(e)=>sgmail(e.target.value)} ></input>
-        //         </td>
-        //     </tr>
-        //     <tr>
-        //     <td className="input">
-        //         <label for="password"><b>Password-</b></label>
-        //     </td>
+//         <Heading/>
+//         <nav className="head">
+//         </nav>
+//         <div className="body"></div>
+//         <table className="data">
+//             <tr>
+//                     <td className="input">
+//                     <label for="gmail"><b>Gmail-</b></label>
+//                 </td>
+//                 <td className="input">
+//                 <input type="gmail" name='mail' placeholder="Enter Gmail" onChange={(e)=>sgmail(e.target.value)} ></input>
+//                 </td>
+//             </tr>
+//             <tr>
+//             <td className="input">
+//                 <label for="password"><b>Password-</b></label>
+//             </td>
             
-        //     <td className="input">
-        //     <input type="password" name='password' placeholder="Enter password" onChange={(e)=>spassword(e.target.value)}></input>
-        //     </td>
-        //     </tr>
+//             <td className="input">
+//             <input type="password" name='password' placeholder="Enter password" onChange={(e)=>spassword(e.target.value)}></input>
+//             </td>
+//             </tr>
             
-        // <button style={{margin:'5% 40% 0vh 100%'}} onClick={Log}>Login</button><br/><br/>
+//         <button style={{margin:'5% 40% 0vh 100%'}} onClick={Log}>Login</button><br/><br/>
         
-        // <tr>
-        //     <td>
-        // <button  style={{background:'none',border:'none',marginBottom:'5vh',color:'blue'}} onClick={Reg}><b>Register🤷🏼‍♀</b></button><br/>
-        // </td>
-        // <td  align="right">
-        // <button  style={{background:'none',border:'none',marginBottom:'5vh',color:'indigo'}} onClick={For}><b>Fogot🤷🏼‍♀</b></button>
-        // </td>
-        // </tr>
-        // {/* <button style={{margin:'10%,40%,0vh,150%'}} onClick={Forgot}>Forgot password</button> */}
-        // </table>
-        // <footer className="foot"></footer>
+//         <tr>
+//             <td>
+//         <button  style={{background:'none',border:'none',marginBottom:'5vh',color:'blue'}} onClick={Reg}><b>Register🤷🏼‍♀</b></button><br/>
+//         </td>
+//         <td  align="right">
+//         <button  style={{background:'none',border:'none',marginBottom:'5vh',color:'indigo'}} onClick={For}><b>Fogot🤷🏼‍♀</b></button>
+//         </td>
+//         </tr>
+//         {/* <button style={{margin:'10%,40%,0vh,150%'}} onClick={Forgot}>Forgot password</button> */}
+//         </table>
+//         <footer className="foot"></footer>
 //         </>
 //     )
 // }
