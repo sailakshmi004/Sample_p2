@@ -1,8 +1,9 @@
 import React from "react";
+
 export const Sorry=()=>
 {
     <div className="sorry">
-        Oops..!!Oh sorry 😕<br/>
+        <h1>Oops..!!Oh sorry 😕</h1>
 
     </div>
 }

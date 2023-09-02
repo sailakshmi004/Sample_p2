@@ -36,7 +36,7 @@ export const Ad=() =>
     }
     const Reg=()=>
     {
-        nav('/registerpp')
+        nav('/noaccessforusers')
     }
     const For=()=>
     {
