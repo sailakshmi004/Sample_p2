@@ -11,7 +11,7 @@ import { Heading } from './components/head/head';
 import { Registerr } from './components/registerr/registerr';
 import { Ad } from './components/aduser/admin';
 import { Problem } from './components/prblm/prblm';
-import { Sorry } from './components/noaccessforusers/noaccessforusers';
+import { Sorry } from './components/noaccess/noaccess';
 
 function Appp() {
   return (
@@ -28,7 +28,7 @@ function Appp() {
     <Route path='/' element={<Heading/>}/>
     <Route path='/registerpp' element={<Registerr/>}/>
     <Route path='/prblm' element={<Problem/>}/>
-    <Route path='/noaccessforusers' element={<Sorry/>}/>
+    <Route path='/noaccess' element={<Sorry/>}/>
     
     </Routes>
     </BrowserRouter>
