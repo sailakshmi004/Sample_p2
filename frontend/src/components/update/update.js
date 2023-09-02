@@ -83,12 +83,11 @@ const Up=async()=>
 {
   try
   {
-    const isGoal = await axios.post("https://server-bjj8.onrender.com/update/"+name+"/"+newpsw);
+    const isGoal=await axios.post("https://server-bjj8.onrender.com/update/"+name+"/"+newpsw);
   if(isGoal.data)
   {
     alert("saved");
-      nav('/usercontent');
-
+      nav('/login');
   }
   else{
     alert("try again");
@@ -98,13 +97,11 @@ catch(e)
     console.log(e)
   }
   }
-  
-
 return(
     <>
     <Heading/>
         <nav className="head"></nav>
-        <div className="body"></div>
+        <div className="body">
         <table className="data">
             <tr>
                 <td className="input">
@@ -122,19 +119,10 @@ return(
                 <input type="name" placeholder="Enter your Password" onChange={(e)=>snewpsw(e.target.value)}></input>
                 </td>
             </tr>
-            {/* <tr>
-                <td className="input">
-                    <label for="name">Conform Password</label>
-                </td>
-                <td className="input">
-                    <input type="name" placeholder="conform your password" onChange={(e)=>cpassword(e.target.value)}></input>
-                </td>
-            </tr>
-             */}
             <button style={{margin:'5% 40% 0vh 100%'}} onClick={Up}>Login</button>
         </table>
+        </div>
         <footer className="foot"></footer>
-    
 </>
 );
 }

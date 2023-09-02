@@ -42,7 +42,7 @@ export const Registerr=() =>
         <>
         <Heading/>
         <nav className="head"></nav>
-        <div className="body"></div>
+        <div className="body">
         <table className="data">
             <tr>
                 <td className="input">
@@ -65,7 +65,7 @@ export const Registerr=() =>
                     <label for="name">Password</label>
                 </td>
                 <td className="input">
-                    <input type="name" name='password' placeholder="Enter password" onChange={(e)=>spassword(e.target.value)} ></input>
+                    <input type="name" name='password' placeholder="Enter password" onChange={(e)=>spassword(e.target.value)}></input>
                 </td>
             </tr>
             <tr>
@@ -78,9 +78,9 @@ export const Registerr=() =>
             </tr>
             <button style={{margin:'5% 40% 0vh 100%'}} onClick={Reg}>Register</button>
         </table>
+        </div>
         <footer className="foot"></footer>
         </>
-
 );
 }
 
