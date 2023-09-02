@@ -3,7 +3,6 @@
   width:100%;
   background-color:rgb(141, 217, 234);
   height: 7vh;
-  /* line-height: 50vh; */
 }
 .head1
 {
@@ -11,6 +10,10 @@
   height: 0vh;
   margin: auto;
   background-color:rgb(242, 243, 238);
+}
+.head1 font
+{
+  margin:10% 0% 0% 82%;
 }
 .head2
 {
@@ -32,7 +35,6 @@
   background-repeat: no-repeat;
   width: 100%;
   background-size: 100%;
-  
 }
 .visit
 {
@@ -40,6 +42,7 @@
   border-width: 30px;
   background-color: antiquewhite;
   margin: 21% 0% 0vh 47%;
+  cursor: pointer;
 }
 
 .foot
@@ -51,13 +54,10 @@
 {
   width: 20%;
   position: absolute;
-  margin:-47vh 40% 50vh 39.5%;
+  margin:15% 0% 50vh 40%;
   background-color: rgba(203, 236, 251, 0.984);
   border-radius: 8%;
   height: 15vh;
-
-
-  
 }
 .input
 {

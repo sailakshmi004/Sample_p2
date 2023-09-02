@@ -127,8 +127,8 @@ export const Login=() =>
         <Heading/>
          <nav className="head">
          </nav>
-         <div className="body"></div>
-        <table className="data">
+         <div className="body">
+         <table className="data">
             <tr>
                     <td className="input">
                     <label for="gmail"><b>Name-</b></label>
@@ -159,6 +159,7 @@ export const Login=() =>
          </tr>
          {/* <button style={{margin:'10%,40%,0vh,150%'}} onClick={Forgot}>Forgot password</button> */}
          </table>
+         </div>
         <footer className="foot"></footer>
         
         </>
