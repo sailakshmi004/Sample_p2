@@ -5,24 +5,7 @@
   height: 7vh;
   
 }
-.b1
-{
-  border-radius: 35%;
-  border-width: 30px;
-  
-  margin: 21% 0% 0vh 20%;
-  cursor: pointer;
 
-}
-.b2
-{
-  border-radius: 35%;
-  border-width: 30px;
-  
-  margin: 20vh 0% 0vh 47%;
-  cursor: pointer;
-
-}
 .head1
 {
   /* margin-top:auto; */
@@ -58,11 +41,27 @@
 .visit
 {
   border-radius: 50%;
-  border-width: 50px;
+  border-width: 30px;
   background-color: antiquewhite;
   margin: 21% 0% 0vh 47%;
   cursor: pointer;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.b1
+{
+  border-radius: 55%;
+  border-width: 30px;
+  margin: 21% 0% 0vh 20%;
+  cursor: pointer;
+
+}
+.b2
+{
+  border-radius: 55%;
+  border-width: 30px;
+  margin: 20vh 0% 0vh 47%;
+  cursor: pointer;
+
 }
 
 .foot
@@ -93,11 +92,13 @@
 }
 .prblm
 {
-  /* background-image: url("con.jpg"); */
+  background-image: url("user.jpeg");
   background-repeat: no-repeat;
   width:100%;
   height: 100vh;
   background-size: 100%;
+  
+
 }
 .alert
 {
