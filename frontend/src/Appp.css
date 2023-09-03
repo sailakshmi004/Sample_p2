@@ -129,13 +129,17 @@
 }
 .about
 {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  /* margin-left: 41% ;
-  margin-top: 10%; */
-  background-image: url("app.jpeg");
-  width:100%;
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-size: 100%;
+ background-image: url("app.jpeg");
+ height: 100vh;
+ width: 100%;
+ background-repeat: no-repeat;
+ background-size: 100%;
+
   
+}
+.font
+{
+ margin:  -26% 0% 0vh 40%; 
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ font-size: xx-large;
 }
