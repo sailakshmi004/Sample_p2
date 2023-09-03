@@ -129,7 +129,7 @@
 }
 .about
 {
- background-image: url("app.jpeg");
+ background-image: url("app.png");
  height: 100vh;
  width: 100%;
  background-repeat: no-repeat;
@@ -139,7 +139,20 @@
 }
 .font
 {
- margin:  -26% 0% 0vh 40%; 
+ margin:  -42% 0% 0vh 40%; 
  font-family:Georgia, 'Times New Roman', Times, serif;
  font-size: xx-large;
+}
+.h5
+{
+  margin:59% 0% 0vh 75%;
+}
+.sai
+{
+  background-image: url("contact.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position:static;
 }

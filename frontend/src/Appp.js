@@ -13,6 +13,7 @@ import { Ad } from './components/aduser/admin';
 import { Problem } from './components/prblm/prblm';
 import { Sorry } from './components/noaccess/noaccess';
 import { About } from './components/about/about';
+import { Contact } from './components/contact/contact';
 
 function Appp() {
   return (
@@ -31,6 +32,7 @@ function Appp() {
     <Route path='/prblm' element={<Problem/>}/>
     <Route path='/noaccess' element={<Sorry/>}/>
     <Route path='/about' element={<About/>}/>
+    <Route path='/contact' element={<Contact/>}/>
     
     </Routes>
     </BrowserRouter>

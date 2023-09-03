@@ -10,6 +10,12 @@ app.get('/',(req,res)=>{
 })
 
 //adminlogin
+app.get('/login/:name/:password',async(req,res)=>{
+    const details=await db.collection('admin').findOne({Name:req.params.name,Password:req.params.password})
+    res.json(details);
+})
+
+
 
 app.get('/login/:name/:password',async(req,res)=>{
     const details=await db.collection('saii').findOne({Name:req.params.name,Password:req.params.password})
