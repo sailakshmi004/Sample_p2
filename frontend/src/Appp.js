@@ -12,6 +12,7 @@ import { Registerr } from './components/registerr/registerr';
 import { Ad } from './components/aduser/admin';
 import { Problem } from './components/prblm/prblm';
 import { Sorry } from './components/noaccess/noaccess';
+import { About } from './components/about/about';
 
 function Appp() {
   return (
@@ -29,6 +30,7 @@ function Appp() {
     <Route path='/registerpp' element={<Registerr/>}/>
     <Route path='/prblm' element={<Problem/>}/>
     <Route path='/noaccess' element={<Sorry/>}/>
+    <Route path='/about' element={<About/>}/>
     
     </Routes>
     </BrowserRouter>

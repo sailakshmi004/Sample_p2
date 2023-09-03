@@ -19,7 +19,7 @@ export const Heading=()=>
               {/* <div className="head1" > */}
               <font onClick={Home}><b>Home</b></font>
                 
-                <font style={{marginLeft:'5%',background:'none',width:'80px',color:'black'}}onClick={About}><b>About</b></font>
+                <font style={{marginleft:'5%',background:'none',width:'80px',color:'black'}}onClick={About}><b>About</b></font>
                 
               <div className="body"></div>
                 

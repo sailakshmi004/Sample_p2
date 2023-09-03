@@ -15,7 +15,7 @@
 }
 .head1 font
 {
-  margin:10% 0% 0% 82%;
+  margin:8% 0% 0% 45%;
 }
 .head2
 {
@@ -92,12 +92,13 @@
 }
 .prblm
 {
-  background-image: url("user.jpeg");
+  /* background-image: url("user.jpeg"); */
   background-repeat: no-repeat;
-  width:100%;
   height: 100vh;
+  width: 100%;
   background-size: 100%;
-  
+  background-color: rgb(210, 253, 189) ;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
 .alert
@@ -105,8 +106,6 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: blue;
 }
-
-
 .sorry
 {
   position:static;
@@ -126,5 +125,17 @@
   background-size:35%;
   
   
+  
+}
+.about
+{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* margin-left: 41% ;
+  margin-top: 10%; */
+  background-image: url("app.jpeg");
+  width:100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100%;
   
 }
