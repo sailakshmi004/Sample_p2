@@ -14,7 +14,7 @@ export const Login=() =>
         try
         {
             const res=await axios.get("https://server-bjj8.onrender.com/login/"+name+"/"+password)
-            
+            {
                 if(res.data)
                 {
 
@@ -26,6 +26,9 @@ export const Login=() =>
                     
                     alert("try again");
                 }
+            }
+            
+                
             }
         catch(e)
         {
