@@ -88,7 +88,8 @@
 }
 .user
 {
-  margin: 17vh 40%;
+  margin: 17vh 0%;
+  background-size: 100% ;
 }
 .prblm
 {
