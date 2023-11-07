@@ -12,6 +12,7 @@
   height: 0vh;
   margin: auto;
   background-color:rgb(242, 243, 238);
+  
 }
 .head1 font
 {
@@ -88,7 +89,7 @@
 }
 .user
 {
-  margin: 17vh 0%;
+  margin: 20% 0% 0vh 40%;
   background-size: 100% ;
 }
 .prblm

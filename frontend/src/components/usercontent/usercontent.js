@@ -27,7 +27,6 @@ export const User=()=>
         <>
         <nav className="head"></nav>
         <div className="body">
-    
         <textarea className="user" rows="10" cols="50" placeholder="type your text...!!" onChange={(e)=>sprblm(e.target.value)}></textarea>
         <table>
             <td align="center"></td>
