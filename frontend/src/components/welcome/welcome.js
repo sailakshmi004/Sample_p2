@@ -26,7 +26,7 @@ export const Welcome=()=>
             < font style={{margin:' 0% 0% 0vh 85%'}} onClick={Home}>Home</font>
             < font style={{margin:' 0% 0% 0vh 2%'}} onClick={About}>About</font>
             
-            <button className="visit" onClick={Wel}>VISIT!</button>
+            <button className="visit" onClick={Wel}>Welcome!</button>
             </div>
             </nav>
             <div className="body">

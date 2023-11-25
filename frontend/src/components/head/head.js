@@ -17,9 +17,9 @@ export const Heading=()=>
     <nav className="head1">
         {/* <div className="head1"> */}
               {/* <div className="head1" > */}
-              <font style={{marginLeft:'82%',background:'none',width:'80px',color:'black'}}onClick={Home}><b>Home</b></font>
+              <font onClick={Home}><b>Home</b></font>
                 
-                <font style={{marginLeft:'5%',background:'none',width:'80px',color:'black'}}onClick={About}><b>About</b></font>
+                <font style={{marginleft:'5%',background:'none',width:'80px',color:'black'}}onClick={About}><b>About</b></font>
                 
               <div className="body"></div>
                 

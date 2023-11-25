@@ -22,23 +22,18 @@ export const User=()=>
     {
         console.log(e)
     }
-}
-
+    }
     return(
         <>
         <nav className="head"></nav>
-        
         <div className="body">
         <textarea className="user" rows="10" cols="50" placeholder="type your text...!!" onChange={(e)=>sprblm(e.target.value)}></textarea>
         <table>
             <td align="center"></td>
         </table>
         <font style={{margin:'5vh 50%',color:'blue'}} onClick={Us}><b>Submit</b></font>
-        {/* <button  onClick={Us}>submit</button> */}
         </div>
-        
         <footer className="foot"></footer>
-        
         </>
     )
     

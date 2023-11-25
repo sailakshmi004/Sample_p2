@@ -5,11 +5,8 @@ import { Heading } from "../head/head";
 export const Registerr=() =>
 {
     const nav=useNavigate();
-    // const [name,sname]=useState([]);
-    // const [pnum,setpnum]=useState([]);
-    // const [email,setemail]=useState([]);
-    // const [psw,setpsw]=useState([]);
-    // const [cpsw,setcpsw]=useState([]);
+    
+    
     const [name,sname]=useState("");
     const [gmail,sgmail]=useState("");
     const [password,spassword]=useState("");
@@ -19,7 +16,7 @@ export const Registerr=() =>
         if(password===conpassword){
             try
         {
-            const res=await axios.post("https://server-bjj8.onrender.com/registerr/"+name+"/"+gmail+"/"+password+"/"+conpassword)
+            const res=await axios.post("https://server-bjj8.onrender.com/register/"+name+"/"+gmail+"/"+password+"/"+conpassword)
             {
                 if(res.data)
                 {
@@ -45,7 +42,7 @@ export const Registerr=() =>
         <>
         <Heading/>
         <nav className="head"></nav>
-        <div className="body"></div>
+        <div className="body">
         <table className="data">
             <tr>
                 <td className="input">
@@ -68,7 +65,7 @@ export const Registerr=() =>
                     <label for="name">Password</label>
                 </td>
                 <td className="input">
-                    <input type="name" name='password' placeholder="Enter password" onChange={(e)=>spassword(e.target.value)} ></input>
+                    <input type="name" name='password' placeholder="Enter password" onChange={(e)=>spassword(e.target.value)}></input>
                 </td>
             </tr>
             <tr>
@@ -81,8 +78,9 @@ export const Registerr=() =>
             </tr>
             <button style={{margin:'5% 40% 0vh 100%'}} onClick={Reg}>Register</button>
         </table>
+        </div>
         <footer className="foot"></footer>
         </>
-
 );
 }
+
