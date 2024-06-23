@@ -7,7 +7,7 @@ export const Login=() =>
 {
     const nav=useNavigate();
     const [name,sname]=useState([]);
-    const [password,spassword]=useState([]);  
+    const [password,spassword]=useState([]);
     
     const Log=async()=>
     {
@@ -48,10 +48,10 @@ export const Login=() =>
     return(
         <>
         <Heading/>
-         <nav className="head">
-         </nav>
-         <div className="body">
-         <table className="data">
+        <nav className="head">
+        </nav>
+        <div className="body">
+        <table className="data">
             <tr>
                     <td className="input">
                     <label for="gmail"><b>Name-</b></label>
@@ -59,7 +59,7 @@ export const Login=() =>
                 <td className="input">
                 <input type="gmail" name='mail' placeholder="Enter Gmail" onChange={(e)=>sname(e.target.value)} ></input>
                 </td>
-             </tr>
+            </tr>
              <tr>
              <td className="input">
                 <label for="password"><b>Password-</b></label>
